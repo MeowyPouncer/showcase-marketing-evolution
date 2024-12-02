@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     toggles.forEach(toggle => {
         const circle = toggle.querySelector('.button-circle');
         const buttonType = toggle.dataset.type || 'default';
-        circle.src = '/marketing-evolution/static/images/toggler-off.png';
+        circle.src = '/images/toggler-off.png';
 
         if (buttonType === 'type-2') {
             circle.style.left = '6px';
@@ -24,13 +24,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 setTimeout(() => {
                     if (buttonType === 'type-2') {
-                        circle.src = '/marketing-evolution/static/images/toggler-on.png';
+                        circle.src = '/images/toggler-on.png';
                         circle.style.left = 'calc(100% - 73px)';
                     } else if (buttonType === 'type-3') {
-                        circle.src = '/marketing-evolution/static/images/toggler-on.png';
+                        circle.src = '/images/toggler-on.png';
                         circle.style.left = 'calc(100% - 52px)';
                     } else {
-                        circle.src = '/marketing-evolution/static/images/toggler-on.png';
+                        circle.src = '/images/toggler-on.png';
                         circle.style.left = 'calc(100% - 74px)';
                     }
                 }, 150);
@@ -40,13 +40,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 setTimeout(() => {
                     if (buttonType === 'type-2') {
-                        circle.src = '/marketing-evolution/static/images/toggler-off.png';
+                        circle.src = '/images/toggler-off.png';
                         circle.style.left = '6px';
                     } else if (buttonType === 'type-3') {
-                        circle.src = '/marketing-evolution/static/images/toggler-off.png';
+                        circle.src = '/images/toggler-off.png';
                         circle.style.left = '2px';
                     } else {
-                        circle.src = '/marketing-evolution/static/images/toggler-off.png';
+                        circle.src = '/images/toggler-off.png';
                         circle.style.left = '-8px';
                     }
                 }, 150);
