@@ -229,7 +229,7 @@ body {
 }
 
 .carousel-card {
-  box-shadow: -9px -9px 16px 0px rgba(255, 255, 255, 0.6), 9px 9px 16px 0px rgba(137, 225, 61, 0.6);
+  box-shadow: -9px -9px 16px 0 rgba(255, 255, 255, 0.6), 9px 9px 16px 0 rgba(137, 225, 61, 0.6);
   position: relative;
   width: 100%;
   min-width: 493px;
