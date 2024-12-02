@@ -788,6 +788,7 @@ body {
   top: 204px;
   left: -177px;
   max-width: unset;
+  pointer-events: none;
 }
 .tag-cloud-block .light-shadowed-headline {
   font-size: 2.5rem;
@@ -947,6 +948,7 @@ body {
 .list-block__item:nth-child(5) .list-block__image {
   top: -75px;
   left: 32px;
+  pointer-events: none;
 }
 .list-block__item:nth-child(3) .list-block__content {
   margin-top: -35px;
@@ -1032,6 +1034,7 @@ body {
   top: -63px;
   left: -160px;
   z-index: -1;
+  pointer-events: none;
 }
 .info-card-block__animation {
   position: absolute;
@@ -1466,6 +1469,7 @@ body {
   margin-top: 100px;
   padding: 138px 0;
   background-color: #242424;
+  overflow: hidden;
 }
 .contact-us-block .container .container--content {
   position: relative;
