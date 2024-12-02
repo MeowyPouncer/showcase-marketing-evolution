@@ -52,12 +52,12 @@ a {
 
 @font-face {
   font-family: "Lato";
-  src: url("/marketing-evolution/static/fonts/Lato-Regular.ttf") format("truetype");
+  src: url("/static/fonts/Lato-Regular.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
   font-family: "Aeroport Mono";
-  src: url("/marketing-evolution/static/fonts/Aeroport-monospaced-trial.otf") format("opentype");
+  src: url("/static/fonts/Aeroport-monospaced-trial.otf") format("opentype");
   font-weight: normal;
 }
 .container {
@@ -165,7 +165,7 @@ body {
   height: 65px;
   position: relative;
   cursor: pointer;
-  background: url("/marketing-evolution/static/images/toggler-bg.svg") no-repeat center center; /* Фон переключателя */
+  background: url("/static/images/toggler-bg.svg") no-repeat center center; /* Фон переключателя */
 }
 
 .toggler-buttons {
@@ -304,7 +304,7 @@ body {
   left: -203px;
   width: 700px;
   height: 837px;
-  background-image: url("/marketing-evolution/static/images/shadow-expert-hollow.png");
+  background-image: url("/static/images/shadow-expert-hollow.png");
   z-index: -1;
 }
 .figure-card__figure img {
@@ -1331,7 +1331,7 @@ body {
   top: 5px;
   width: 10px;
   height: 10px;
-  background-image: url("/marketing-evolution/static/images/icons/list-style-marker.png");
+  background-image: url("/static/images/icons/list-style-marker.png");
   background-size: cover;
 }
 .packages .container--content .package-2 .initial-content .round-hollow-border,
@@ -1364,7 +1364,7 @@ body {
 }
 .packages .container--content .package-2 .actions .button-toggle,
 .packages .container--content .package-3 .actions .button-toggle {
-  background: url("/marketing-evolution/static/images/toggler-bg-small.svg") no-repeat center center;
+  background: url("/static/images/toggler-bg-small.svg") no-repeat center center;
   height: 55px;
   width: 81px;
   min-width: 81px;
@@ -1440,7 +1440,7 @@ body {
   top: 2px;
   width: 7px;
   height: 7px;
-  background-image: url("/marketing-evolution/static/images/icons/list-style-marker-white.png");
+  background-image: url("/static/images/icons/list-style-marker-white.png");
   background-size: cover;
 }
 .packages .container--content .actions {
@@ -1451,7 +1451,7 @@ body {
   color: #D7D7D7;
 }
 .packages .container--content .actions .button-toggle {
-  background: url("/marketing-evolution/static/images/toggler-bg-dark.svg") no-repeat center center;
+  background: url("/static/images/toggler-bg-dark.svg") no-repeat center center;
 }
 .packages .container--content .actions .label {
   font-size: 1.25rem;
@@ -1477,7 +1477,7 @@ body {
   top: -370px;
   left: -150px;
   height: 100%;
-  background: url("/marketing-evolution/static/images/short-chain.png") no-repeat center center;
+  background: url("/static/images/short-chain.png") no-repeat center center;
   transform: rotate(-21deg);
   pointer-events: none;
 }
@@ -1488,7 +1488,7 @@ body {
   right: -446px;
   width: 1028px;
   height: 830px;
-  background: url("/marketing-evolution/static/images/long-chain.png") no-repeat center center;
+  background: url("/static/images/long-chain.png") no-repeat center center;
   transform: rotate(-28deg);
   pointer-events: none;
 }
